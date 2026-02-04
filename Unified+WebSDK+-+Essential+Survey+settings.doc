@@ -1,0 +1,379 @@
+Date: Wed, 4 Feb 2026 17:02:18 +0000 (UTC)
+Message-ID: <1888471400.5.1770224538619@9e9ba889e6ce>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_1142395379.1770224538619"
+
+------=_Part_4_1142395379.1770224538619
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Unified WebSDK - Essential Survey settings</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Unified WebSDK - Essential Survey settings</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1770224538608 {padding: 0px;}
+div.rbtoc1770224538608 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1770224538608 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1770224538608">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-EssentialSurveysettings-Essentialsettingsform=
+ostsurveys">Essential settings for most surveys</a></li>
+</ul>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>This is a complete internal documentation that will not be included in t=
+he customer facing documentations.</p>
+</div>
+</div>
+<h1 id=3D"UnifiedWebSDK-EssentialSurveysettings-Essentialsettingsformostsur=
+veys">Essential settings for most surveys</h1>
+<p>In most cases, a website visitor should not be overwhelmed by surveys. A=
+s a rule of thumb, one survey every in 30 days should enough. We usually al=
+so don=E2=80=99t want to show a survey to all visitors, only a certain samp=
+le size. In this documentation the story setup for safe survey triggering i=
+s explained.<br>
+For general explanations of steps and stories see: <a href=3D"https://kanas=
+oftware.jira.com/wiki/spaces/VOC/pages/3573383424/Unified+WebSDK+-+Rules+En=
+gine" data-linked-resource-id=3D"3573383424" data-linked-resource-version=
+=3D"110" data-linked-resource-type=3D"page">Unified WebSDK - Rules Engine</=
+a></p>
+<h2 id=3D"UnifiedWebSDK-EssentialSurveysettings-StorySettings">Story Settin=
+gs</h2>
+<p>For general story settings, in most cases we have two settings to think =
+about: <strong>name</strong> and <strong>repeatAfter</strong></p>
+<p>The <strong>name</strong> of the story that triggers a survey should be =
+similar to the survey name in EFM Survey Manager, so the survey can easily =
+be found and mentally connected to the story. For example, if the name of a=
+ survey in Survey Manager is =E2=80=9CCheckout Feedback=E2=80=9D the story =
+name could be =E2=80=9CSurvey_Checkout_Feedback=E2=80=9D.</p>
+<p>The <strong>repeatAfter</strong> settings is very important. If it is fo=
+rgotten, a visitor may see the same survey on every page. For some surveys =
+that is the behavior we want, but in most cases, we want to have some pause=
+ before the same survey can be shown again. A safe setting is <strong>=E2=
+=80=9C30d=E2=80=9D, </strong>once in 30 days. But you have to clarify with =
+the client what their wishes are.</p>
+<h2 id=3D"UnifiedWebSDK-EssentialSurveysettings-Essentialsteps">Essential s=
+teps</h2>
+<p>A few steps are essential for <strong>most</strong> surveys that are tri=
+ggered while browsing. There can be exceptions, for example a survey trigge=
+red by Feedback Badge should probably be allowed to be shown more than once=
+. But for generic surveys, that can just trigger when a certain page is see=
+n or a number of pages have been visited, the steps explained next are esse=
+ntial.</p>
+<h4 id=3D"UnifiedWebSDK-EssentialSurveysettings-samplingRate">samplingRate<=
+/h4>
+<p>The =E2=80=9C<a href=3D"https://kanasoftware.jira.com/wiki/spaces/VOC/pa=
+ges/3573383424/Unified+WebSDK+-+Rules+Engine#samplingRate-v1.0.0%2B" rel=3D=
+"nofollow">samplingRate</a>=E2=80=9D step is used to limit the sample size =
+of a survey, so not all visitors are getting the survey. Sampling rates mus=
+t be set for each device individually.</p>
+<p>This step also has the =E2=80=9Cnamespace=E2=80=9D setting. This is need=
+ed, if a customer has multiple surveys, that could trigger on the same page=
+. When a =E2=80=9Cnamespace=E2=80=9D value is set, the story generates it=
+=E2=80=99s own random number to compare against the rate, instead of using =
+the global random number. That way, two surveys on the same page are diced =
+individually, so each has a chance of triggering.</p>
+<p>If you are not using =E2=80=9Cnamespace=E2=80=9D, and you have two surve=
+ys on the same page that have similar rates, the surveys that triggers firs=
+t always =E2=80=9Cwins=E2=80=9D against the later survey.</p>
+<h4 id=3D"UnifiedWebSDK-EssentialSurveysettings-surveyShown">surveyShown</h=
+4>
+<p>The =E2=80=9C<a href=3D"https://kanasoftware.jira.com/wiki/spaces/VOC/pa=
+ges/3573383424/Unified+WebSDK+-+Rules+Engine#surveyShown-v1.0.0%2B" rel=3D"=
+nofollow">surveyShown</a>=E2=80=9D step is used to check if other surveys h=
+ave been shown already. It can be used to show a survey only if a certain o=
+ther survey was already shown. But usually it is used to stop a survey, if =
+any other survey was already shown, with the goal, to not show too many sur=
+veys to a visitor.</p>
+<p>This step also has a =E2=80=9Ctimeframe=E2=80=9D setting. This is used t=
+o set the timeframe, where a shown survey is checked.<br>
+The correct value depends on what the customer want, but in general, =E2=80=
+=9C30d=E2=80=9D is a good value.</p>
+<h2 id=3D"UnifiedWebSDK-EssentialSurveysettings-ExampleStory">Example Story=
+</h2>
+<p>Here you are seeing the JSON configuration for a simple survey.</p>
+<ul>
+<li>
+<p>This survey can only be triggered once every 30 days (<strong>repeatAfte=
+r </strong>setting)</p></li>
+<li>
+<p>This survey can only be triggered if <strong>no other</strong> survey wa=
+s shown in the last 30 day (<strong>surveyShown</strong> step)</p></li>
+<li>
+<p>This survey will be shown to 0.3 percent of desktop/tablet/phone users. =
+Since this survey can be shown on any page, we are using the =E2=80=9Cnames=
+pace=E2=80=9D setting to generate a unique random number</p></li>
+<li>
+<p>When all of these conditions are met, a modal survey is shown after 10 s=
+econds, when the visitor saw more than one page of the site</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">      {
+        "name": "Survey_Browse_Feedback",
+        "enabled": true,
+        "repeatAfter": "30d",
+        "steps": [
+          {
+            "stepName": "surveyShown",
+            "comparator": "none",
+            "timeframe": "30d"
+          },
+          {
+            "stepName": "checkPageViews",
+            "comparator": "greater",
+            "value": 1
+          },
+          {
+            "stepName": "wait",
+            "time": 10000
+          },
+          {
+            "stepName": "samplingRate",
+            "desktop": 0.3,
+            "tablet": 0.3,
+            "phone": 0.3,
+            "namespace": "Survey_Browse_Feedback"
+          },
+          {
+            "stepName": "showModalSurvey",
+            "surveyId": "5E94CE97734854A1",
+            "maxWidth": "600px",
+            "logoUrl": "logo.svg",
+            "cancelClosedSurvey": true
+          }
+        ]
+      },</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_4_1142395379.1770224538619--

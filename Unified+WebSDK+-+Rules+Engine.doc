@@ -1,0 +1,1521 @@
+Date: Wed, 4 Feb 2026 17:02:09 +0000 (UTC)
+Message-ID: <1130581273.53.1770224529447@5bd819392cd4>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_52_1590979484.1770224529447"
+
+------=_Part_52_1590979484.1770224529447
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Unified WebSDK - Rules Engine</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Unified WebSDK - Rules Engine</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1770224529378 {padding: 0px;}
+div.rbtoc1770224529378 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1770224529378 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1770224529378">
+<style>[data-colorid=3Dpyozkavirs]{color:#006644} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dpyozkavirs]{color:#99ffdd}</style>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-CoreConcept">Core Concept</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-MoreonStories">More on Stories</a=
+></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-CustomSteps">Custom Steps</a></li=
+>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-GroupingStories">Grouping Stories=
+</a></li>
+</ul></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-AvailableSteps">Available Steps</=
+a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-ConditionSteps">Condition Steps</=
+a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkUrlv1.2.0Blue">checkUrl V1.2=
+.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkSelectorv1.2.0Blue">checkSel=
+ector V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkDevicev1.2.0Blue">checkDevic=
+e V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkBrowserv1.2.0Blue">checkBrow=
+ser V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkUserAgentv1.2.0Blue">checkUs=
+erAgent V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkPlatformv1.2.0Blue">checkPla=
+tform V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkPageViewsv1.2.0Blue">checkPa=
+geViews V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkPageTimev1.2.0Blue">checkPag=
+eTime V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkSessionTimev1.2.0Blue">check=
+SessionTime V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkPageNamev1.2.0Blue">checkPag=
+eName V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkPropertyv1.2.0Blue">checkPro=
+perty V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkVariablev1.2.0Blue">checkVar=
+iable V1.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkCookiev1.0.0Blue">checkCooki=
+e V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-samplingRatev1.0.0Blue">samplingR=
+ate V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-surveyShownv1.0.0Blue">surveyShow=
+n V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-browserEventv1.10.0Blue">browserE=
+vent V1.10.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-liveScoreSeverityv1.11.0Blue">liv=
+eScoreSeverity V1.11.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-liveScoreIndicatorv1.11.0Blue">li=
+veScoreIndicator V1.11.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkSchedulev1.11.0Blue">checkSc=
+hedule V1.11.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkPinnedSurveyv2.4.0Blue">chec=
+kPinnedSurvey V2.4.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-checkRecordingv3.3.0Blue">checkRe=
+cording V3.3.0</a></li>
+</ul></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-ActionSteps">Action Steps</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-embedSurveyv1.0.0Blue">embedSurve=
+y V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-showInvitev1.0.0Blue">showInvite =
+V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-showBadgev1.0.0Blue">showBadge V1=
+.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-showModalSurveyv1.0.0Blue">showMo=
+dalSurvey V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-externalSurveyv1.6.0Blue">externa=
+lSurvey V1.6.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-showOnExitModalv1.7.0Blue">showOn=
+ExitModal V1.7.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-startSessionRecordingv1.0.0Blue">=
+startSessionRecording V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-activateSessionv1.0.0Blue">activa=
+teSession V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-setCookiev1.0.0Blue">setCookie V1=
+.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-removeCookiev1.0.0Blue">removeCoo=
+kie V1.0.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-openUrlv1.1.0Blue">openUrl V1.1.0=
+</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-setPropertyv1.4.0Blue">setPropert=
+y V1.4.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-showWaypointv2.2.0Blue">showWaypo=
+int V2.2.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-setPinnedSurveyv2.4.0Blue">setPin=
+nedSurvey V2.4.0</a></li>
+</ul></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-UtilitySteps">Utility Steps</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-mouseOffv1.0.0Blue">mouseOff V1.0=
+.0</a></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-waitv1.0.0Blue">wait V1.0.0</a></=
+li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-anyv1.0.0Blue">any V1.0.0</a></li=
+>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-allv1.0.0Blue">all V1.0.0</a></li=
+>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-notv1.0.0Blue">not V1.0.0</a></li=
+>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-demandv1.0.0Blue">demand V1.0.0</=
+a></li>
+</ul></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-StepPlaceholderv2.4.0Blue">Step P=
+laceholder V2.4.0</a></li>
+</ul></li>
+<li><a href=3D"#UnifiedWebSDK-RulesEngine-FeatureWishlist">Feature Wishlist=
+</a></li>
+</ul>
+</div>
+<h1 id=3D"UnifiedWebSDK-RulesEngine-CoreConcept">Core Concept</h1>
+<p>The <strong>Rules Engine</strong> is bundled into the <strong>Unified We=
+bSDK</strong> that runs on the customer's website. It's used to configure a=
+ctions that should be triggered under certain conditions. It's possible to =
+combine conditions and actions in any order you like. We call that a <stron=
+g>Story</strong> and you can define as many as you like!</p>
+<p>The Rules Engine evaluates all stories while the user is browsing the we=
+bsite. Some stories might be configured to only be evaluated on a single si=
+te and reset once the user navigates to another page. Other stories can be =
+set up to save their progress across multiple pageviews within the user ses=
+sion.</p>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-MoreonStories">More on Stories</h2>
+<p>For a Story, it does not matter if you want to embed a survey, show a mo=
+dal survey, invite or feedback badge. It=E2=80=99s also<strong> not limited=
+</strong> to do survey-related actions only. You can also trigger session r=
+ecording, set custom properties (aka. =E2=80=9CCPP=E2=80=9D), or call custo=
+m actions from custom code, third-party tools or customer-provided function=
+ality. The sky is the limit=E2=84=A2.</p>
+<p>Sometimes a Story leading to one action isn=E2=80=99t enough. That's why=
+ we build Stories in a way that you can also combine multiple actions in on=
+e Story or even put more conditions in between them.</p>
+<div class=3D"panel" style=3D"background-color: #E6FCFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #E6FCFF;">
+<p><strong>Example Story:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Check that the user is visiting the website using a phone.</p></li>
+<li>
+<p>Start DBA Session Recording in Local Buffer mode</p></li>
+<li>
+<p>Check that the user has visited a specific URL on the website.</p></li>
+<li>
+<p>Wait until the user has a page count of 5. (aka. =E2=80=9Cloyalty factor=
+=E2=80=9D)</p></li>
+<li>
+<p>show an invite modal on the bottom of the screen and wait for the user t=
+o accept</p></li>
+<li>
+<p>Show a modal survey from survey management (EFM)</p></li>
+<li>
+<p>Now check if the user falls into a 50% sampling group of users who got t=
+he survey.</p></li>
+<li>
+<p>Activate DBA Session Recording and transfer data from Local Buffer to DB=
+A Servers to process the recording once the user finished his session.</p><=
+/li>
+</ol>
+</div>
+</div>
+<p>This example should just give an impression of what you can do with the =
+Rules Engine out of the box without any custom implementation effort. And t=
+his is only a portion of what we can do. See the <a href=3D"#Available-Cond=
+itions-and-Actions"><strong>Available Conditions and Actions</strong></a><s=
+trong> </strong>section for all options the Rules Engine has to offer curre=
+ntly.</p>
+<p>One thing you might have noticed is that showing an invite is a disconne=
+cted action from showing a modal survey. We did the same for badges(eg. use=
+d for feedback surveys). This allows you to trigger <strong>any</strong> <s=
+trong>action</strong> by an invite or badge. This can be a survey, session =
+recording, or anything else you can imagine.</p>
+<p>Stories also allow you to define <code>repeatAfter </code>setting (simil=
+ar to ForeSee <code>repeatDays</code>). This will make sure the user will n=
+ot be bugged again with the same action. A story can restart immediately af=
+ter finishing, on the next page, in the next session or after a certain tim=
+e has passed.</p>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-CustomSteps">Custom Steps</h2>
+<p>Even though we already offer a large set of conditions and actions bundl=
+es with the Rules Engine, there will always be the need to do something tha=
+t we have not thought of or that is just too custom to have as a feature. H=
+owever, this does not mean that we can't solve those scenarios. It just req=
+uires a <strong>custom code</strong> implementation.</p>
+<p>With custom code, it=E2=80=99s possible to register custom conditions an=
+d actions. Once registered they can be used in any story you like and freel=
+y combined with any feature that the Rules Engine offers out of the box.</p=
+>
+<p>Eventually, if a custom implementation is used across multiple customers=
+, it might be worth bundling it into the Rules Engine to make it available =
+as a feature to all customers. You can find a <a href=3D"#Feature-Wishlist"=
+><strong>Wishlist</strong></a> for missing features at the bottom of this d=
+ocument.</p>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-GroupingStories">Grouping Stories</h2>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Story Groups removed from WebSDK Version 2.0.0 and higher</p>
+</div>
+</div>
+<p>When you need multiple different ways to trigger the same action in the =
+end we also got you covered out of the box. Simply create multiple stories =
+and put them into a <strong>Story Group</strong>. The Rules Engine will the=
+n take care once one Story was completed all other Stories will be stopped =
+to avoid annoying the user by for example triggering the same survey twice =
+in his visit.<br><br>
+If the finished story that triggered the group shut-off is configured with =
+a <code>repeatAfter</code> setting, the same setting will be used for the w=
+hole group.</p>
+<h1 id=3D"UnifiedWebSDK-RulesEngine-AvailableSteps">Available Steps</h1>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-ConditionSteps">Condition Steps</h2>
+<p>most of the condition steps support comparators. See available comparato=
+rs <a href=3D"https://kanasoftware.jira.com/wiki/spaces/VOC/pages/367178733=
+0/Unified+WebSDK+-+Conditions" data-linked-resource-id=3D"3671787330" data-=
+linked-resource-version=3D"6" data-linked-resource-type=3D"page">here</a>.<=
+/p>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkUrlv1.2.0Blue"><code>checkUrl</cod=
+e> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkUrl",
+  "comparator": "is",
+  "value": "https://example.com/home"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkSelectorv1.2.0Blue"><code>checkSel=
+ector</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-ref=
+resh aui-lozenge-complete">V1.2.0</span></h3>
+<p>Example 1: check for existence of a specific selector</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkSelector",
+  "comparator": "exist",
+  "selector": ".test"
+}</pre>
+</div>
+</div>
+<p>Example 2: check for the text content of a specific selector:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkSelector",
+  "comparator": "contains",
+  "selector": ".test",
+  "value": "My Text Content"
+}</pre>
+</div>
+</div>
+<p>Example 3: check for element in viewport <span class=3D"status-macro aui=
+-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">V1.4.0</span> <br=
+>
+Step passes, if any element that matches the selector is in viewport (<stro=
+ng>value</strong> defines, how much of an element needs to be in the viewpo=
+rt, in percent, 0 to 100)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkSelector",
+  "comparator": "inViewport",
+  "selector": ".test",
+  "value": 100
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkDevicev1.2.0Blue"><code>checkDevic=
+e</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh=
+ aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkDevice",
+  "comparator": "is",
+  "value": "desktop"
+}</pre>
+</div>
+</div>
+<p><strong>Supported Devices:</strong></p>
+<ul>
+<li>
+<p>desktop</p></li>
+<li>
+<p>tablet</p></li>
+<li>
+<p>phone</p></li>
+</ul>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkBrowserv1.2.0Blue"><code>checkBrow=
+ser</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refre=
+sh aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkBrowser",
+  "comparator": "contains",
+  "value": "Chrome"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkUserAgentv1.2.0Blue"><code>checkUs=
+erAgent</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-r=
+efresh aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkUserAgent",
+  "comparator": "contains",
+  "value": "Trident"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkPlatformv1.2.0Blue"><code>checkPla=
+tform</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-ref=
+resh aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "platform",
+  "comparator": "is",
+  "value": "Windows"
+}</pre>
+</div>
+</div>
+<p><strong>Supported Platforms:</strong></p>
+<ul>
+<li>
+<p>iOS</p></li>
+<li>
+<p>Android</p></li>
+<li>
+<p>Windows</p></li>
+<li>
+<p>Linux</p></li>
+<li>
+<p>MacOS</p></li>
+</ul>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkPageViewsv1.2.0Blue"><code>checkPa=
+geViews</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-r=
+efresh aui-lozenge-complete">V1.2.0</span></h3>
+<p>Page views are amount of pages visited during the current user session.<=
+/p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkPageViews",
+  "comparator": "greater",
+  "value": 5
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkPageTimev1.2.0Blue"><code>checkPag=
+eTime</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-ref=
+resh aui-lozenge-complete">V1.2.0</span></h3>
+<p>Check for the time spent on the current page.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkPageTime",
+  "comparator": "greaterEqual",
+  "value": 5000
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkSessionTimev1.2.0Blue"><code>check=
+SessionTime</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visu=
+al-refresh aui-lozenge-complete">V1.2.0</span></h3>
+<p>check for time spent on the current user session.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkSessionTime",
+  "comparator": "greaterEqual",
+  "value": 5000
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkPageNamev1.2.0Blue"><code>checkPag=
+eName</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-ref=
+resh aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkPageName",
+  "comparator": "in",
+  "value": ["pagename-1", "pagename-2"]
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkPropertyv1.2.0Blue"><code>checkPro=
+perty</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-ref=
+resh aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkProperty",
+  "comparator": "is",
+  "name": "Property Name"
+  "value": "Property Value"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkVariablev1.2.0Blue"><code>checkVar=
+iable</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-ref=
+resh aui-lozenge-complete">V1.2.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkVariable",
+  "comparator": "is",
+  "name": "window.variableName"
+  "value": "variableValue"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkCookiev1.0.0Blue"><code>checkCooki=
+e</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh=
+ aui-lozenge-complete">V1.0.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "checkCookie",
+  "comparator": "is",
+  "name": "cookie-name"
+  "value": "cookie-value"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-samplingRatev1.0.0Blue"><code>samplingR=
+ate</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refre=
+sh aui-lozenge-complete">V1.0.0</span></h3>
+<p>Check for a defined sampling rate per device.<br><span class=3D"status-m=
+acro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">V1.3.0+</=
+span> Added new optional key =E2=80=9Cnamespace=E2=80=9D</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "samplingRate",
+  "desktop": 100,
+  "tablet": 50,
+  "phone": 0,
+  "legacy": false,
+  "namespace": "global"
+}</pre>
+</div>
+</div>
+<p>The option<strong> legacy </strong>(defaults to <code>false</code>) will=
+ enable the classic Foresee sampling behavior to dice the sampling rate on =
+every run. Note that this will cause oversampling, this is why it's disable=
+d by default. The modern default mode will cache the sampling result to pre=
+vent oversampling.</p>
+<p>The option<strong> namespace </strong>(defaults to <code>"global"</code>=
+) is used in the modern (non-legacy) to determine the cache key for the gen=
+erated random number for sampling. This allows to generate multiple indepen=
+dent subsets.</p>
+<p></p>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-surveyShownv1.0.0Blue"><code>surveyShow=
+n</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh=
+ aui-lozenge-complete">V1.0.0</span></h3>
+<p>Example 1: Check if a specific survey has been shown or not.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "surveyShown",
+  "comparator": "in", // allso supports "notIn"
+  "surveyIds": ["1234"]
+}</pre>
+</div>
+</div>
+<p>Example 2: Check if any survey has been shown or not.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "surveyShown",
+  "comparator": "any" // also supports "none"
+}</pre>
+</div>
+</div>
+<p>Option <code>timeframe</code> added in version <span class=3D"status-mac=
+ro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">V1.5.0</spa=
+n> allows you to only check in a specific timeframe (default: 30 days)<br>
+Example 3: Check for any survey shown in the last 7 days</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "surveyShown",
+  "comparator": "any",
+  "timeframe": "7d"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-browserEventv1.10.0Blue"><code>browserE=
+vent</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refr=
+esh aui-lozenge-complete">V1.10.0</span></h3>
+<p>Wait for a certain event before progressing to the next step in the stor=
+y.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "browserEvent",  // required
+  "event": "click",           // required
+  "selector": ".my-selector", // optional, if not provided all events of th=
+at type will resolve the step
+  "context": "document"       // optional, defaults to "document", supports=
+ "document", "window", [CSS selector]
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-liveScoreSeverityv1.11.0Blue"><code>liv=
+eScoreSeverity</code> <span class=3D"status-macro aui-lozenge aui-lozenge-v=
+isual-refresh aui-lozenge-complete">V1.11.0</span></h3>
+<p>Wait for a live score of a score group to be in a specific range before =
+progressing to the next step in the story. The specified group has to be se=
+t up and enabled in the configuration.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "liveScoreSeverity",  // required
+  "groupName": "struggle",          // required
+  "minLevel": "low",                // optional, minimum severity level
+  "maxLevel": "high"                // optional, maximum severity level
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-liveScoreIndicatorv1.11.0Blue"><code>li=
+veScoreIndicator</code> <span class=3D"status-macro aui-lozenge aui-lozenge=
+-visual-refresh aui-lozenge-complete">V1.11.0</span></h3>
+<p>Wait for a certain indicator event to be triggered at least a minimum am=
+ount of times on the current page before progressing to the next step in th=
+e story. The Indicator must be enabled in the config in at least on enabled=
+ live scoring group.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "liveScoreIndicator", // required
+  "indicatorName": "rageClick",     // required
+  "minThreshold": 5                 // optional, defaults to 1
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkSchedulev1.11.0Blue"><code>checkSc=
+hedule</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-re=
+fresh aui-lozenge-complete">V1.11.0</span></h3>
+<p>Only continue the story when the provided start and end date/times are m=
+et.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName":  "checkSchedule",             // required
+  "startTime": "2023-09-10 15:00:00.000Z",  // optional, datetime string or=
+ null
+  "endTime":   "2023-09-10 15:00:00.000Z"   // optional, datetime string or=
+ null
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkPinnedSurveyv2.4.0Blue"><code>chec=
+kPinnedSurvey</code> <span class=3D"status-macro aui-lozenge aui-lozenge-vi=
+sual-refresh aui-lozenge-complete">V2.4.0</span></h3>
+<p>Check if a survey has or has not been pinned.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName":  "checkPinnedSurvey",         // required
+  "comparator": "is",                       // is, isNot
+  "value":      "Pinned"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-checkRecordingv3.3.0Blue"><code>checkRe=
+cording</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-r=
+efresh aui-lozenge-complete">V3.3.0</span></h3>
+<p>Check if a survey has or has not been pinned.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName":  "checkRecording",            // required
+  "comparator": "in",                       // in, notIn
+  "value":      "quantumMetric"             // quantumMetric, fullstory, lo=
+gRocket, dbaBuffer, dbaServer
+}</pre>
+</div>
+</div>
+<p></p>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-ActionSteps">Action Steps</h2>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-embedSurveyv1.0.0Blue"><code>embedSurve=
+y</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh=
+ aui-lozenge-complete">V1.0.0</span></h3>
+<p>Embed an EFM survey into a specific location on the website using a CSS =
+selector.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "embedSurvey",
+  "surveyId": 1234,
+  "locale": "eu-US",     // optional, when not provided default language fr=
+om SM will be used
+  "efmSurveyHost": null, // optional, added with 1.6.0
+  "selector": "#target",
+  "buttonless": false // buttonless only works for pages that entirely cons=
+ists of ChooseOne questions that are set to required
+}</pre>
+</div>
+</div>
+<p><strong>New pinned survey placeholder were added </strong><span class=3D=
+"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">=
+V2.4.0</span></p>
+<p>In previous steps pinned surveys can be opened by using specific placeho=
+lders:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">"survey=
+Id": "%pinned.surveyId%"
+"locale": "%pinned.locale%"           // optional
+"efmSurveyHost": "%pinned.efmHost%"   // optional</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-showInvitev1.0.0Blue"><code>showInvite<=
+/code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh a=
+ui-lozenge-complete">V1.0.0</span></h3>
+<p>Display an invite modal on a specified location on the screen and wait f=
+or the user to accept the invite.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showInvite",
+  "locale": "eu-US",          // optional, when not provided default langua=
+ge from SM will be used
+  "descriptionText": "Would you take a brief survey so we can improve your =
+experience on our site?",
+  "headingText": "We'd welcome your feedback!",
+  "buttonAcceptText": "Yes, I'll give feedback",
+  "buttonDeclineText": "No, thanks",
+  "positionX": "end",        =20
+  "positionY": "end",        =20
+  "customClass": "",
+  "smallScreenBreakpoint": 500,
+  "maxWidth": "500px",
+  "exclusive": true
+}</pre>
+</div>
+</div>
+<p><strong>The setting </strong><code>exclusive</code><strong> supports the=
+ following values:</strong></p>
+<ul>
+<li>
+<p><code>true</code> (default): Invite will only be shown, if no other invi=
+te was seen during the session</p></li>
+<li>
+<p><code>false</code> Invite will be shown, even if another invite was seen=
+ during the session</p></li>
+</ul>
+<p>In <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh au=
+i-lozenge-complete">V1.8.0</span> the settings <code>smallScreenBreakpoint<=
+/code> and <code>maxWidth</code> were removed. Width and mobile settings sh=
+ould now be configured over the style manager.</p>
+<p><strong>New =E2=80=9Cmodal=E2=80=9D display was added </strong><span cla=
+ss=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-compl=
+ete">V1.9.0</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showInvite",
+  "locale": "eu-US",          // optional, when not provided default langua=
+ge from SM will be used
+  "mode": "modal",
+  "descriptionText": "Would you take a brief survey so we can improve your =
+experience on our site?",
+  "headingText": "We'd welcome your feedback!",
+  "buttonAcceptText": "Yes, I'll give feedback",
+  "buttonDeclineText": "No, thanks",
+  "tagline": "Powered by Verint",
+  "positionX": "end",        =20
+  "positionY": "end",        =20
+  "customClass": "",
+  "exclusive": true,
+  "showLogo": true,
+  "logoUrl": null,
+  "showBackdrop": true,
+  "width": 500
+}</pre>
+</div>
+</div>
+<p><strong>New =E2=80=9Cbanner=E2=80=9D display was added </strong><span cl=
+ass=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-comp=
+lete">V2.4.0</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showInvite",
+  "mode": "banner",
+  "locale": "eu-US",  //optional
+  "exclusive": true,
+  "descriptionText": "Would you take a brief survey so we can improve your =
+experience on our site?",
+  "headingText": "We'd welcome your feedback!",
+  "buttonAcceptText": "Yes, I'll give feedback",
+  "customTexts": true,
+  "side": "bottom",  // supports: "top", "bottom"
+  "showLogo": true,
+  "logoUrl": null,
+  "showClose": true,
+  "maxWidth": 900,
+  "margin": 16
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-showBadgev1.0.0Blue"><code>showBadge</c=
+ode> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui=
+-lozenge-complete">V1.0.0</span></h3>
+<p>Display a badge (eg. for feedback surveys) on a specified location on th=
+e screen and wait for the user to click the badge.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showBadge",
+  "label": "Feedback",
+  "locale": "eu-US",    // optional, when not provided default language fro=
+m SM will be used
+  "timeout": null,      // in milliseconds
+  "side": "right",      // left, top, bottom
+  "animation": "slide",
+  "alignment": "start", // also supports percent, eg. "10%"
+  "customClass": ""
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-showModalSurveyv1.0.0Blue"><code>showMo=
+dalSurvey</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual=
+-refresh aui-lozenge-complete">V1.0.0</span></h3>
+<p>Display an EFM survey in a modal.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showModalSurvey",
+  "surveyId": "1234",
+  "locale": "eu-US",     // optional, when not provided default language fr=
+om SM will be used
+  "efmSurveyHost": null, // optional, added with 1.6.0
+  "logoUrl": "",
+  "closeButton": true,
+  "positionX": "center", // also supports percent, e.g. "10%"
+  "positionY": "center", // also supports percent, e.g. "10%"
+  "maxWidth": "500px",
+  "mobileAutoFullScreen": true,
+  "hideBackground": false,
+  "buttonless": false // buttonless only works for pages that entirely cons=
+ists of ChooseOne questions that are set to required
+}</pre>
+</div>
+</div>
+<p><strong>New =E2=80=9CendPageCloseButton=E2=80=9D config was added </stro=
+ng><span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-complete">V2.0.0</span></p>
+<ul>
+<li>
+<p><code>closeButton</code>config was removed</p></li>
+<li>
+<p><code>positionX / positionY</code>now no longer accepts percent values</=
+p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showModalSurvey",
+  "surveyId": "1234",
+  "locale": "eu-US",     // optional, when not provided default language fr=
+om SM will be used
+  "efmSurveyHost": null,
+  "logoUrl": "",
+  "positionX": "center",
+  "positionY": "center",=20
+  "maxWidth": "500px",
+  "mobileAutoFullScreen": true,
+  "hideBackground": false,
+  "buttonless": false,
+  "endPageCloseButton": false
+}</pre>
+</div>
+</div>
+<p><strong>New pinned survey placeholder were added </strong><span class=3D=
+"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">=
+V2.4.0</span></p>
+<p>In previous steps pinned surveys can be opened by using specific placeho=
+lders:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">"survey=
+Id": "%pinned.surveyId%"
+"locale": "%pinned.locale%"           // optional
+"efmSurveyHost": "%pinned.efmHost%"   // optional</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-externalSurveyv1.6.0Blue"><code>externa=
+lSurvey</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-r=
+efresh aui-lozenge-complete">V1.6.0</span></h3>
+<p>Display an EFM survey externally.</p>
+<h4 id=3D"UnifiedWebSDK-RulesEngine-In-SessionModalv1.7.0Blue">In-Session M=
+odal <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui=
+-lozenge-complete">V1.7.0</span></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "externalSurvey",
+  "surveyId": "1234",
+  "locale": "eu-US",           // optional, when not provided default langu=
+age from SM will be used
+  "efmSurveyHost": undefined,  // optional, supports: string
+  "target": "modal",           // also supports: "currentTab"
+  "width": 550,                // optional, supports: numbers
+  "height": 450,               // optional, supports: numbers
+  "positionX": "center",       // optional, supports: "start", "center", "e=
+nd"
+  "positionY":"center",        // optional, supports: "start", "center", "e=
+nd"
+  "showBackdrop": true,        // optional
+  "showLogo": true,            // optional
+  "logoUrl": "logo.png",       // optional
+  "properties": []             // optional, array of strings (property name=
+s to attach)
+}</pre>
+</div>
+</div>
+<h4 id=3D"UnifiedWebSDK-RulesEngine-Popupv1.6.0Blue">Popup <span class=3D"s=
+tatus-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">V1=
+.6.0</span></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "externalSurvey",
+  "surveyId": "1234",
+  "locale": "eu-US",           // optional, when not provided default langu=
+age from SM will be used
+  "efmSurveyHost": undefined,  // optional, supports: string
+  "target": "popup",
+  "width": 800,                // optional, supports: numbers
+  "height": 600,               // optional, supports: numbers
+  "properties": []             // optional, array of strings (property name=
+s to attach)
+}</pre>
+</div>
+</div>
+<h4 id=3D"UnifiedWebSDK-RulesEngine-BrowserTabv1.6.0Blue">Browser Tab <span=
+ class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-c=
+omplete">V1.6.0</span></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "externalSurvey",
+  "surveyId": "1234",
+  "locale": "eu-US",           // optional, when not provided default langu=
+age from SM will be used
+  "efmSurveyHost": null,  // optional, supports: string (default: use from =
+global config)
+  "target": "newTab",     // also supports: "currentTab"
+  "properties": []        // optional, array of strings (property names to =
+attach)
+}</pre>
+</div>
+</div>
+<p><strong>New pinned survey placeholder were added </strong><span class=3D=
+"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-complete">=
+V2.4.0</span></p>
+<p>In previous steps pinned surveys can be opened by using specific placeho=
+lders:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">"survey=
+Id": "%pinned.surveyId%"
+"locale": "%pinned.locale%"           // optional
+"efmSurveyHost": "%pinned.efmHost%"   // optional</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-showOnExitModalv1.7.0Blue"><code>showOn=
+ExitModal</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual=
+-refresh aui-lozenge-complete">V1.7.0</span></h3>
+<p>Open an On-Exit modal to register for email/sms survey delivery.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "campaignId": "ABC123",       // required
+  "groupId": "ABC123",          // required
+  "projectId": "ABC123",        // required
+  "locale": "eu-US",            // optional, this is only applied for the o=
+n-exit modal
+                                // only "en-US" is available by default
+                                // further languages need to be set-up via =
+"i18n" config
+  "title": "Title",             // optional
+  "description": "Description", // optional
+  "tagline": "Tagline",         // optional
+  "mode": "default",            // optional, supports: "default", "email", =
+"sms"
+  "width": 400,                 // optional, has to be numeric
+  "positionX": "center",        // optional, supports: "start", "center", "=
+end"
+  "positionY": "center",        // optional, supports: "start", "center", "=
+end"
+  "showBackdrop": true,         // optional
+  "showLogo": true,             // optional
+  "logoUrl": "logo.png"         // optional
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-startSessionRecordingv1.0.0Blue"><code>=
+startSessionRecording</code> <span class=3D"status-macro aui-lozenge aui-lo=
+zenge-visual-refresh aui-lozenge-complete">V1.0.0</span></h3>
+<p>Start DBA session recording.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "startSessionRecording",
+  "conditional": true
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-activateSessionv1.0.0Blue"><code>activa=
+teSession</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual=
+-refresh aui-lozenge-complete">V1.0.0</span></h3>
+<p>Activate DBA session recording when it was started in conditional mode t=
+o transfer local buffer to DBA servers.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "activateSession",
+  "bucket": "default" // also support efmSurvey after 22.9 release
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-setCookiev1.0.0Blue"><code>setCookie</c=
+ode> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui=
+-lozenge-complete">V1.0.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "setCookie",
+  "name": "foo",
+  "value": "bar"
+  "expiry": "7d" // d=3Ddays, h=3Dhours, m=3Dminutes
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-removeCookiev1.0.0Blue"><code>removeCoo=
+kie</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refre=
+sh aui-lozenge-complete">V1.0.0</span></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "removeCookie",
+  "name": "foo"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-openUrlv1.1.0Blue"><code>openUrl</code>=
+ <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-loz=
+enge-complete">V1.1.0</span></h3>
+<p>Open a custom URL in a new tab or the current window.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "openUrl",
+  "url": "https://www.example.com/help",
+  "target": "newTab"
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-setPropertyv1.4.0Blue"><code>setPropert=
+y</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh=
+ aui-lozenge-complete">V1.4.0</span></h3>
+<p><span class=3D"inline-comment-marker" data-ref=3D"2691c264-bfad-4dd9-be1=
+c-f549cf976eb6">Set a custom property</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "setProperty",
+  "propertyName": "example name",
+  "propertyValue" "example value"
+  "changePage": false,
+  "multiple": false,
+  "dataType": "string",
+  "session": false,
+  "onlyCurrentPi": false
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-showWaypointv2.2.0Blue"><code>showWaypo=
+int</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refre=
+sh aui-lozenge-complete">V2.2.0</span></h3>
+<p>Shows waypoint modal.</p>
+<p><code>buttonLayout</code>can be either =E2=80=9Chorizontal=E2=80=9C or =
+=E2=80=9Cvertical=E2=80=9D</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "showWaypoint",
+  "tagline": "",
+  "descriptionText": "",
+  "headingText": "",
+  "buttonLayout": "vertical",
+  "logoUrl": null,
+  "showLogo": true,
+  "width": 400,
+  "positionY": "center",
+  "positionX": "center",
+  "customClass": "",
+  "showBackdrop": true
+  "buttons": []
+}</pre>
+</div>
+</div>
+<p>Example button config that goes into <code>buttons</code>array.<br><code=
+>buttonAction</code>can be any step included in the step library, but not e=
+very step would make sense to use. You can also use a custom step registere=
+d via custom code. In that case, just use the step name you registered the =
+custom step with.</p>
+<p><code>buttonIcon</code>is optional. Can either be a link beginning with =
+https: to a hosted image, or just the image name if it is uploaded into the=
+ files folder for the project.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "buttonIcon": "example-icon.svg",
+  "buttonText": "Example Label",
+  "buttonAction": {
+    "stepName": "openUrl",
+    "url": "https://example.com"
+  }
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-setPinnedSurveyv2.4.0Blue"><code>setPin=
+nedSurvey</code> <span class=3D"status-macro aui-lozenge aui-lozenge-visual=
+-refresh aui-lozenge-complete">V2.4.0</span></h3>
+<p>Save a survey Id using the default storage driver for later use.</p>
+<p>The survey is saved If there is no previous survey pinned or the priorit=
+y of the new survey is equal or higher than the previously pinned survey. i=
+f a survey is pinned with <code>locked: true</code> it=E2=80=99s not possib=
+le to overwrite it anymore.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "setPinnedSurvey",
+  "surveyId": "1234",
+  "locale": "",                     // optional
+  "efmSurveyHost": "",              // optional
+  "priority": 1,                    // optional, default 1
+  "locked": false                   // optional, default false
+}</pre>
+</div>
+</div>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-UtilitySteps">Utility Steps</h2>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-mouseOffv1.0.0Blue"><code>mouseOff</cod=
+e> <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-l=
+ozenge-complete">V1.0.0</span></h3>
+<p>Wait for the user to do a mouse-off movement (moving the cursor out of t=
+he viewport on the top edge.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "mouseOff"
+}</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>This only works for devices using a pointer device.</p>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-waitv1.0.0Blue"><code>wait</code> <span=
+ class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-c=
+omplete">V1.0.0</span></h3>
+<p>Wait for a certain time before continuing to the next step. This is not =
+persisted and will restart when the page is reloaded.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "wait",
+  "time": 2000, // in milliseconds
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-anyv1.0.0Blue"><code>any</code> <span c=
+lass=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-com=
+plete">V1.0.0</span></h3>
+<p>Proceeds to the next step, as soon as any of the included steps pass.</p=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "any",
+  "steps": [
+    { ... any step ... }, // replace with actual step=20
+    { ... any step ...}, // replace with actual step
+    ...
+  ]
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-allv1.0.0Blue"><code>all</code> <span c=
+lass=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-com=
+plete">V1.0.0</span></h3>
+<p>Proceeds to the next step, if all of the provided steps pass.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "all",
+  "steps": [
+    { ... any step ... }, // replace with actual step=20
+    { ... any step ...}, // replace with actual step
+    ...
+  ]
+}</pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-notv1.0.0Blue"><code>not</code> <span c=
+lass=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozenge-com=
+plete">V1.0.0</span></h3>
+<p>Negates the outcome of the provided step.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{=20
+  "stepName": "not",=20
+  "step": { ... any step ... } // replace with actual step
+} </pre>
+</div>
+</div>
+<h3 id=3D"UnifiedWebSDK-RulesEngine-demandv1.0.0Blue"><code>demand</code> <=
+span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui-lozen=
+ge-complete">V1.0.0</span></h3>
+<p>Demand a step that would normally be retried to resolve are fail on the =
+first try.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{=20
+  "stepName": "demand",=20
+  "step": { ... any step ... } // replace with actual step
+} </pre>
+</div>
+</div>
+<h2 id=3D"UnifiedWebSDK-RulesEngine-StepPlaceholderv2.4.0Blue">Step Placeho=
+lder <span class=3D"status-macro aui-lozenge aui-lozenge-visual-refresh aui=
+-lozenge-complete">V2.4.0</span></h2>
+<p>Placeholder can be used to inject string values into any string-based st=
+ep configuration.</p>
+<p><strong>Supported placeholders:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0c=
+f48aa2-7570-4e2e-80ac-dacdd6f82706" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 278.0px;">
+<col style=3D"width: 481.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>placeholder</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>usage</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<h4 id=3D"UnifiedWebSDK-RulesEngine-%pinned.surveyId%">%pinned.surveyId%</h=
+4></td>
+<td class=3D"confluenceTd">
+<p>inject survey ID of the current pinned survey</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<h4 id=3D"UnifiedWebSDK-RulesEngine-%pinned.locale%">%pinned.locale%</h4></=
+td>
+<td class=3D"confluenceTd">
+<p>inject locale of the current pinned survey</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<h4 id=3D"UnifiedWebSDK-RulesEngine-%pinned.efmSurveyHost%">%pinned.efmSurv=
+eyHost%</h4></td>
+<td class=3D"confluenceTd">
+<p>inject efmSurveyHost of the current pinned survey</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This can for example be used in any steps showing surveys instead of the=
+ surveyId, like in this example for an <code>embedSurvey</code> step:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "stepName": "embedSurvey",
+  "surveyId": %pinned.surveyId%,
+  "locale": "%pinned.locale%",
+  "efmSurveyHost": "%pinned.efmSurveyHost%"
+  "selector": "#target",
+  "buttonless": false // buttonless only works for pages that entirely cons=
+ists of ChooseOne questions that are set to required
+}</pre>
+</div>
+</div>
+<p></p>
+<h1 id=3D"UnifiedWebSDK-RulesEngine-FeatureWishlist">Feature Wishlist</h1>
+<div class=3D"panel" style=3D"background-color: #E3FCEF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #E3FCEF;">
+<p><strong><span data-colorid=3D"pyozkavirs">Feel free to add new ideas and=
+ wishes to that table!</span></strong></p>
+</div>
+</div>
+<p>This has been moved to a new location: <a href=3D"https://kanasoftware.j=
+ira.com/wiki/spaces/VOC/pages/3949691468/Unified+WebSDK+-+Feature+Wishlist"=
+ data-linked-resource-id=3D"3949691468" data-linked-resource-version=3D"39"=
+ data-linked-resource-type=3D"page">Unified WebSDK - Feature Wishlist</a></=
+p>
+    </div>
+</body>
+</html>
+------=_Part_52_1590979484.1770224529447--
