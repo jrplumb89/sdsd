@@ -1,0 +1,515 @@
+Date: Wed, 4 Feb 2026 17:53:51 +0000 (UTC)
+Message-ID: <207791740.45.1770227631496@d0d7f7f849e2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_44_1127092037.1770227631495"
+
+------=_Part_44_1127092037.1770227631495
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Component: Unified WebSDK Playground</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Component: Unified WebSDK Playground</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1770227631240 {padding: 0px;}
+div.rbtoc1770227631240 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1770227631240 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1770227631240">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-GeneralInformation">Gener=
+al Information</a></li>
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-Environments">Environment=
+s</a></li>
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-Tickets">Tickets</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-CurrentBugs">Current Bugs=
+</a></li>
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-CurrentTechDebt">Current =
+Tech Debt</a></li>
+</ul></li>
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-Documentation">Documentat=
+ion</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#Component:UnifiedWebSDKPlayground-UnifiedWebSDKplaygroundus=
+age">Unified WebSDK playground usage</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id=3D"Component:UnifiedWebSDKPlayground-GeneralInformation">General Inf=
+ormation</h1>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c5eaad20-87c0-489e-a1ee-446=
+c2eb809cd" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 588.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Owner</strong></p></th>
+<td class=3D"confluenceTd">
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"61f9015=
+1530d2a00714674f3" href=3D"https://kanasoftware.jira.com/wiki/people/61f901=
+51530d2a00714674f3?ref=3Dconfluence" target=3D"_blank" data-base-url=3D"htt=
+ps://kanasoftware.jira.com/wiki">Mark Baranyi (Unlicensed)</a></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Developer</strong></p></th>
+<td class=3D"confluenceTd">
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"61f9015=
+1530d2a00714674f3" href=3D"https://kanasoftware.jira.com/wiki/people/61f901=
+51530d2a00714674f3?ref=3Dconfluence" target=3D"_blank" data-base-url=3D"htt=
+ps://kanasoftware.jira.com/wiki">Mark Baranyi (Unlicensed)</a> <a class=3D"=
+confluence-userlink user-mention" data-account-id=3D"5e7cd1eb7276650c2d601f=
+9d" href=3D"https://kanasoftware.jira.com/wiki/people/5e7cd1eb7276650c2d601=
+f9d?ref=3Dconfluence" target=3D"_blank" data-linked-resource-id=3D"11666754=
+91" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinf=
+o" data-base-url=3D"https://kanasoftware.jira.com/wiki">Daniel Kahl</a></p>=
+</td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>QA</strong></p></th>
+<td class=3D"confluenceTd">
+<p><a class=3D"confluence-userlink user-mention" data-account-id=3D"5f68f1c=
+42626970069812e6e" href=3D"https://kanasoftware.jira.com/wiki/people/5f68f1=
+c42626970069812e6e?ref=3Dconfluence" target=3D"_blank" data-base-url=3D"htt=
+ps://kanasoftware.jira.com/wiki">Maciej Kukawski (Unlicensed)</a></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Repository Link</strong></p></th>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://github.com/foreseecode/websdk-playground" rel=3D"nofollow">https://githu=
+b.com/foreseecode/websdk-playground</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"Component:UnifiedWebSDKPlayground-Environments">Environments</h1>
+<div class=3D"table-wrap">
+<table data-layout=3D"wide" data-local-id=3D"0227ba9d-e7d3-4fb6-ac64-ab5d6a=
+611405" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 291.0px;">
+<col style=3D"width: 667.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Environments</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Notice / Links</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Local</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://github.com/foreseecode/websdk-playground" rel=3D"nofollow">https://githu=
+b.com/foreseecode/websdk-playground</a></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>QA</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p><a class=3D"external-link" href=3D"https://us-qa.verint-app.com/unified/=
+playground/" rel=3D"nofollow">https://us-qa.verint-app.com/unified/playgrou=
+nd/</a></p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"Component:UnifiedWebSDKPlayground-Tickets">Tickets</h1>
+<h2 id=3D"Component:UnifiedWebSDKPlayground-CurrentBugs">Current Bugs</h2>
+<div id=3D"refresh-module-611330388" class=3D"confluence-jim-macro refresh-=
+module-id jira-table ">
+<p></p>
+<div id=3D"jira-issues-611330388" style=3D"width: 100%;  overflow: auto;" c=
+lass=3D"jira-issues">
+<table class=3D"aui">
+<tbody>
+<tr></tr>
+<tr>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">T</span></th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">Key</span></th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">Summary</span></th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">P</span></th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">Status</span></th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">Created</span></th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport jira-tablesorter-header"><span class=3D"jim-=
+table-header-content">affects version/s</span></th>
+</tr>
+<tr class=3D"rowNormal">
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"><a href=
+=3D"https://kanasoftware.jira.com/browse/VOC-63691"><img src=3D"https://kan=
+asoftware.jira.com/rest/api/2/universal_avatar/view/type/issuetype/avatar/1=
+2873?size=3Dmedium" alt=3D"Bug" class=3D"icon"></a></td>
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"><a href=
+=3D"https://kanasoftware.jira.com/browse/VOC-63691">VOC-63691</a></td>
+<td class=3D"jira-macro-table-underline-pdfexport"><a href=3D"https://kanas=
+oftware.jira.com/browse/VOC-63691"> Unified Web SDK: EU STG URL is returned=
+ when recording DBA Session with US STG Hoover </a></td>
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"><img src=
+=3D"https://kanasoftware.jira.com/images/icons/priorities/minor.svg" alt=3D=
+"Minor (P4)" class=3D"icon"></td>
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport"><!-- The=
+ new status lozengens support for JIRA 6.2 or later. Otherwise we use the i=
+con.--> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-complete"=
+> Triaged </span></td>
+<td nowrap=3D"true" class=3D"jira-macro-table-underline-pdfexport">21/Nov/2=
+5 2:14 AM</td>
+<td class=3D"jira-macro-table-underline-pdfexport"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"refresh-issues-bottom">
+<span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=3D"nof=
+ollow" title=3D"View all matching issues in JIRA." href=3D"https://kanasoft=
+ware.jira.com/issues/?jql=3Dproject+%3D+VOC+AND+component+%3D+%22Unified+We=
+bSDK+Playground%22+AND+type+%3D+%22Bug%22+AND+status+not+in+%28Done%2C+Clos=
+ed%2C+Withdrawn%2C+%22On+Hold%22%29++&amp;src=3Dconfmacro"> 1 issue </a> </=
+span>
+</div>
+<p></p>
+</div>
+<h2 id=3D"Component:UnifiedWebSDKPlayground-CurrentTechDebt">Current Tech D=
+ebt</h2>
+<div id=3D"refresh-module-1461800966" class=3D"confluence-jim-macro refresh=
+-module-id jira-table ">
+<p></p>
+<div id=3D"jira-issues-1461800966" style=3D"width: 100%;  overflow: auto;" =
+class=3D"jira-issues">
+<table class=3D"aui">
+<tbody>
+<tr></tr>
+<tr>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">T</th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">Key</th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">Summary</th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">P</th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">Status</th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">Created</th>
+<th style=3D"text-align: left; text-transform: capitalize;" class=3D"jira-m=
+acro-table-underline-pdfexport">affects version/s</th>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"refresh-issues-bottom">
+<span id=3D"total-issues-count" class=3D"total-issues-count"> <a rel=3D"nof=
+ollow" href=3D"https://kanasoftware.jira.com/issues/?jql=3Dproject+%3D+VOC+=
+AND+component+%3D+%22Unified+WebSDK+Playground%22+AND+type+in+%28Story%2C+T=
+ask%2C+Epic%2C+Capability%29+AND+labels+in+%28tech-debt%29+AND+status+not+i=
+n+%28Done%2C+Closed%2C+Withdrawn%2C+%22On+Hold%22%29+++&amp;src=3Dconfmacro=
+"> <span>No issues found</span> </a> </span>
+</div>
+<p></p>
+</div>
+<h1 id=3D"Component:UnifiedWebSDKPlayground-Documentation">Documentation<br=
+></h1>
+<p>The site has been created for the QA testers to have a platform that bet=
+ter resembles a =E2=80=9Creal and live=E2=80=9D customer site with appropri=
+ate cases that one would find on the site.</p>
+<h3 id=3D"Component:UnifiedWebSDKPlayground-UnifiedWebSDKplaygroundusage">U=
+nified WebSDK playground usage</h3>
+<p>The site can be reached here: <a class=3D"external-link" href=3D"http://=
+unified-websdk.verintcdn.com/" rel=3D"nofollow">unified-websdk.verintcdn.co=
+m</a></p>
+<p>For local testing:</p>
+<ul>
+<li>
+<p>Pull the repository from here: <a class=3D"external-link" data-card-appe=
+arance=3D"inline" href=3D"https://github.com/foreseecode/websdk-playground"=
+ rel=3D"nofollow">https://github.com/foreseecode/websdk-playground</a></p><=
+/li>
+<li>
+<p>Make sure you are on the master branch.</p></li>
+<li>
+<p>Cd into the folder and run npm install.</p></li>
+<li>
+<p>The app can be started with: npm run meow</p></li>
+<li>
+<p>To be able to configure and test the Unified WebSDK, please pull the lat=
+est stable version of the WebSDK from here: <a class=3D"external-link" data=
+-card-appearance=3D"inline" href=3D"https://github.com/foreseecode/unified-=
+websdk" rel=3D"nofollow">https://github.com/foreseecode/unified-websdk</a> =
+and run it alongside the QA Test Page.</p></li>
+</ul>
+<p><strong>Once the Unified WebSDK is loaded, the proper SDK loaded message=
+ should appear in the console.</strong></p>
+<p><strong>You can configure the WebSDK from the main page, once everything=
+ is set, click Load SDK.</strong></p>
+<p>&nbsp;</p>
+<p>Technical concepts</p>
+<ul>
+<li>
+<p>Github Repository</p></li>
+<li>
+<p>VUE3 and npm</p>
+<ul>
+<li>
+<p>nuxt3 w/o Vite</p></li>
+</ul></li>
+<li>
+<p>Tailwind css v3. with @apply</p>
+<ul>
+<li>
+<p>write our classes with bem</p></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_44_1127092037.1770227631495--

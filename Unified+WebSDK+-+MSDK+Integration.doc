@@ -1,0 +1,516 @@
+Date: Wed, 4 Feb 2026 17:53:08 +0000 (UTC)
+Message-ID: <1216191741.43.1770227588237@fac8fd5a75f1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_42_1754958731.1770227588237"
+
+------=_Part_42_1754958731.1770227588237
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Unified WebSDK - MSDK Integration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Unified WebSDK - MSDK Integration</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1770227588222 {padding: 0px;}
+div.rbtoc1770227588222 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1770227588222 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1770227588222">
+<style>[data-colorid=3Dsc5dhghsid]{color:#97a0af} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dsc5dhghsid]{color:#505968}</style>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-Features">Features</a></li>
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-Requirements">Requirements</a=
+></li>
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-Configuration">Configuration<=
+/a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-NativeMobileSDK">Native Mobil=
+e SDK</a></li>
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-UnifiedWebSDK">Unified WebSDK=
+</a></li>
+</ul></li>
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-Testing">Testing</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-UnifiedWebSDKStandaloneTestin=
+g">Unified WebSDK Standalone Testing</a></li>
+<li><a href=3D"#UnifiedWebSDK-MSDKIntegration-End-2-EndTesting">End-2-End T=
+esting</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id=3D"UnifiedWebSDK-MSDKIntegration-Features">Features</h1>
+<p>The Mobile SDK and Unified WebSDK are exchanging various events to enabl=
+e the following Use Cases:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1116" data-layout=3D"default" data-local-id=3D"6=
+f8c6b82-8253-4470-8585-f6e152accfaa" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 663.0px;">
+<col style=3D"width: 189.0px;">
+<col style=3D"width: 264.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Use Case</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Required Versions</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Related Events </strong><span class=3D"status-macro aui-lozenge =
+aui-lozenge-visual-refresh aui-lozenge-progress">INTERNAL</span></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Surveys shown via the native Mobile SDK will be communicated to the Unif=
+ied WebSDK to be used for story trigger criteria. This will also work for s=
+urveys shown cia native Mobile SDK while no WebView was active.</p></td>
+<td class=3D"confluenceTd">
+<p>Mobile SDK: <code>?.?.?</code><br>
+Unified WebSDK: <code>2.0.0</code></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Mobile SDK: <code>SurveyShown</code></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Surveys shown, abandoned or finished via the Unified WebSDK will be comm=
+unicated to the native Mobile SDK to be taken into account for survey trigg=
+er criteria</p></td>
+<td class=3D"confluenceTd">
+<p>Mobile SDK: <code>?.?.?</code><br>
+Unified WebSDK: <code>2.0.0</code></p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>Unified SDK: <code>SurveyShown</code></p></li>
+<li>
+<p>Unified SDK: <code>SurveyCompleted</code></p></li>
+<li>
+<p>Unified SDK: <code>SurveyAbandoned</code></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><span data-colorid=3D"sc5dhghsid">(Adding more cases here when they get =
+available later, currently developing Invite and Contact/On-Exit connection=
+)</span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"UnifiedWebSDK-MSDKIntegration-Requirements">Requirements</h1>
+<ul>
+<li>
+<p>The customer is using a hybrid apps</p></li>
+<li>
+<p>The Verint Mobile SDK is installed on the native part of the app</p>
+<ul>
+<li>
+<p>see <a class=3D"external-link" href=3D"https://connect.verint.com/develo=
+pers/fscxs/w/mobilesdk/30833/experience-management-mobile-sdk" rel=3D"nofol=
+low">https://connect.verint.com/developers/fscxs/w/mobilesdk/30833/experien=
+ce-management-mobile-sdk</a></p></li>
+</ul></li>
+<li>
+<p>The Unified WebSDK is installed on the web app that is loaded into the n=
+ative app via WebView</p></li>
+</ul>
+<h1 id=3D"UnifiedWebSDK-MSDKIntegration-Configuration">Configuration</h1>
+<h2 id=3D"UnifiedWebSDK-MSDKIntegration-NativeMobileSDK">Native Mobile SDK<=
+/h2>
+<p><em>TBA</em></p>
+<div class=3D"panel" style=3D"background-color: #DEEBFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #DEEBFF;">
+<p>For testing, we should the preconfigured test app.</p>
+<p>see <a href=3D"https://kanasoftware.jira.com/wiki/spaces/MBL/pages/42815=
+00071/Unified+WebSDK+MobSDK+testing+strategy" data-linked-resource-id=3D"42=
+81500071" data-linked-resource-version=3D"6" data-linked-resource-type=3D"p=
+age">Unified WebSDK &amp; MobSDK testing strategy</a></p>
+</div>
+</div>
+<h2 id=3D"UnifiedWebSDK-MSDKIntegration-UnifiedWebSDK">Unified WebSDK</h2>
+<p>The <code>msdk</code> module has to be enabled via <code>config.json</co=
+de> as it is not available in the configurator UI as of now:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "msdk": { "enabled": true }
+}</pre>
+</div>
+</div>
+<h1 id=3D"UnifiedWebSDK-MSDKIntegration-Testing">Testing</h1>
+<h2 id=3D"UnifiedWebSDK-MSDKIntegration-UnifiedWebSDKStandaloneTesting">Uni=
+fied WebSDK Standalone Testing</h2>
+<p>To test the Unified WebSDK we developed a standalone HTML page that allo=
+ws to visualize all outgoing and incoming events. Both event types can be s=
+imulated on that test page.</p>
+<p>The Test page is available in the following regions and stages as of now=
+:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7d=
+02c440-b0e1-4f9e-a68d-00f3d70d0c17" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 163.0px;">
+<col style=3D"width: 595.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Region</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Links</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>US</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>QA: <a class=3D"external-link" href=3D"https://ucm-us-qa.verint-api.com/=
+files/testing/msdk.html" rel=3D"nofollow">https://ucm-us-qa.verint-api.com/=
+files/testing/msdk.html</a></p></li>
+<li>
+<p>Staging: <a class=3D"external-link" href=3D"https://ucm-us-stg.verint-ap=
+i.com/files/testing/msdk.html" rel=3D"nofollow">https://ucm-us-stg.verint-a=
+pi.com/files/testing/msdk.html</a></p></li>
+<li>
+<p>Production: <em>TBA</em></p></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>EU (EMEA)</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>
+<p>QA: <a class=3D"external-link" href=3D"https://ucm-eu-qa.verint-api.com/=
+files/testing/msdk.html" rel=3D"nofollow">https://ucm-eu-qa.verint-api.com/=
+files/testing/msdk.html</a></p></li>
+<li>
+<p>Staging: <em>TBA</em></p></li>
+<li>
+<p>Production: <em>TBA</em></p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>To simulate an event, you need to follow the schema defined in <a href=
+=3D"https://kanasoftware.jira.com/wiki/spaces/VOC/pages/4168220902/Shared+p=
+rotocol" data-linked-resource-id=3D"4168220902" data-linked-resource-versio=
+n=3D"14" data-linked-resource-type=3D"page">Shared protocol</a>.</p>
+<p><strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  surveyId: "1234567890",
+  notificationType: "IN-SESSION",
+  eventTrigger: "CriteriaMet"
+}</pre>
+</div>
+</div>
+<h2 id=3D"UnifiedWebSDK-MSDKIntegration-End-2-EndTesting">End-2-End Testing=
+</h2>
+<p>Test Cases</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"96=
+ed3b54-79f1-4844-a6d7-6aabdaa401fd" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 313.0px;">
+<col style=3D"width: 447.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p></p></th>
+<th class=3D"confluenceTh">
+<p></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>MSDK survey shown before WebSDK is active</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>open test app</p></li>
+<li>
+<p>trigger a native survey on an area where there is no webview that loads =
+the websdk</p></li>
+<li>
+<p>try trigger websdk survey</p></li>
+<li>
+<p>expect not to show a websdk survey</p></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><span class=3D"inline-comment-marker" data-ref=3D"62504272-c9a5-4cc3-a9a=
+d-b5a23383a415">MSDK survey shown while WebSDK is active</span></p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>open test app</p></li>
+<li>
+<p>trigger a native survey on an area where a webview is loaded and websdk =
+loaded</p></li>
+<li>
+<p>try trigger websdk survey</p></li>
+<li>
+<p>expect not to show a websdk survey</p></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>WebSDK survey is shown in</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>open test app</p></li>
+<li>
+<p>navigate to a area where web view is loaded with websdk</p></li>
+<li>
+<p>triggerer the websdk survey</p></li>
+<li>
+<p>try trigger the native survey</p></li>
+<li>
+<p>expected not to show native survey</p></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_42_1754958731.1770227588237--
